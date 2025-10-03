@@ -1,2 +1,5 @@
 # AFRO-hacker
 A binary pokemon rom hacking tool that is still under development
+It is based of Hex Maniac advance by Haven, credits to him!
+# What it will do:
+It is a binary hacking tool like hex maniac advance or advance map that adds these roaming Pokémon that some when they see you, they attack you in romhacks but you can run from then by simply running but they will chase you and if they hit you have to battle them But there's also a passive mode which allows the Pokémon not to be dangerous and just confused with a question mark. there's also alpha Pokémon like legends arceus all of that! you can also press the back of them to catch with a Poke ball but sometimes they are too strong and fail and then they attack you and by attack you i mean put you in a battle. its a fire red only binary hacking tool. a feature to add quests in the game like in pokemon unbound and pokemon oddessey is also present where there is a question mark and there are quests according to that. You should be able to upload your own rom similar to hex maniac advance and advance map and drag sprites that you uploaded onto the map. 
