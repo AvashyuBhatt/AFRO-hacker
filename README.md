@@ -63,18 +63,37 @@ check the SETUP_GUIDE.md file for more information.
 ## Project Structure
 
 ```
-pokemon_fire_red_hacker/
-├── src/                    # Source code
-│   ├── main.py            # Application entry point
-│   ├── core/              # Core ROM manipulation
-│   ├── ui/                # User interface modules
-│   ├── features/          # Feature implementations
-│   └── utils/             # Utility functions
-├── assets/                # Application assets
-├── docs/                  # Documentation
-├── tests/                 # Unit tests
-├── build/                 # Build artifacts
-└── requirements.txt       # Python dependencies
+AFRO-hacker/
+├── main.py                    # Launch application
+├── AFRO-SETUP.py             # Create source files (run once)
+├── setup_venv.py             # Setup environment (run once)
+├── run.bat                    # Windows launcher (auto-created)
+├── run.sh                     # Linux/Mac launcher (auto-created)
+├── requirements.txt           # Python dependencies
+│
+├── venv/                      # Virtual environment (auto-created)
+│   ├── bin/ or Scripts/      # Python executables
+│   └── lib/ or Lib/          # Installed packages
+│
+├── core/
+│   ├── __init__.py
+│   ├── rom_engine.py         # ROM loading/saving
+│   ├── config.py             # Settings management
+│   └── hma_map_renderer.py   # Map rendering (HMA-style)
+│
+├── ui/
+│   ├── __init__.py
+│   ├── main_window.py        # Main window & tabs
+│   ├── map_editor_tab.py     # Map editor (HMA-style)
+│   ├── hex_editor_tab.py     # Hex editor (stub)
+│   ├── pokemon_data_tab.py   # Pokemon editor (stub)
+│   ├── roaming_pokemon_tab.py
+│   ├── alpha_pokemon_tab.py
+│   └── quest_system_tab.py
+│
+├── features/                 # Future features
+├── utils/                    # Utilities
+└── assets/                   # Optional: icon files
 ```
 
 ## Contributing
