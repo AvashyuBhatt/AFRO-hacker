@@ -95,19 +95,6 @@ class ROMEngine:
         """Read byte"""
         return self.rom_data[offset] if self.rom_data and offset < len(self.rom_data) else 0
 
-    def read_short(self, offset: int) -> int:
-        """Read 16-bit"""
-        if not self.rom_data or offset + 1 >= len(self.rom_data):
-            return 0
-        return self.rom_data[offset] | (self.rom_data[offset + 1] << 8)
-
-    def read_int(self, offset: int) -> int:
-        """Read 32-bit"""
-        if not self.rom_data or offset + 3 >= len(self.rom_data):
-            return 0
-        return (self.rom_data[offset] | (self.rom_data[offset + 1] << 8) |
-                (self.rom_data[offset + 2] << 16) | (self.rom_data[offset + 3] << 24))
-
     def get_rom_name(self) -> str:
         """Get ROM name"""
         return os.path.basename(self.rom_path) if self.rom_path else "No ROM"

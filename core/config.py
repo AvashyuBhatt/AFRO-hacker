@@ -52,8 +52,3 @@ class Config:
         """Set value"""
         self.config[key] = value
         self.save_config()
-
-    def reset(self):
-        """Reset to defaults"""
-        self.config = self.DEFAULTS.copy()
-        self.save_config()

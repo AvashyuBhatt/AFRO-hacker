@@ -1,6 +1,6 @@
 # The Pokemon AFRO Binary Hacking Tool
 
-AFRO-hacker, or Andvanced Fire Red Optimization hacker, is a ROM hacking tool for Pokemon Fire Red with advanced features including roaming Pokemon mechanics, alpha Pokemon system, and quest management. The interface is designed to be identical to Hex Maniac Advance while providing powerful new functionality.
+AFRO-hacker, or Advanced Fire Red Optimization hacker, is a ROM hacking tool for Pokemon Fire Red with advanced features including roaming Pokemon mechanics, alpha Pokemon system, and quest management. The interface is designed to be identical to Hex Maniac Advance while providing powerful new functionality.
 
 ## Features
 

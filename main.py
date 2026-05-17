@@ -23,7 +23,7 @@ class PokemonFireRedHacker:
 
     def setup_application(self):
         """Initialize the application"""
-        self.root.title("Pokemon Fire Red Binary Hacking Tool v1.0")
+        self.root.title("AFRO Hacker - Fire Red Advanced ROM Options v1.0")
         self.root.geometry("1400x900")
         self.root.minsize(1200, 800)
 
@@ -142,7 +142,7 @@ class PokemonFireRedHacker:
         about_text = """AFRO Hacker v1.0 - Pokemon Fire Red ROM Hacking Tool
 
 Features:
-✓ Map Editor (HMA-style)
+✓ HMA-Style Map Editor
 ✓ Roaming Pokemon System
 ✓ Alpha Pokemon
 ✓ Quest System
@@ -175,3 +175,14 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+    try:
+        import ui.alpha_pokemon_tab
+        import ui.hex_editor_tab
+        import ui.main_window
+        import ui.map_editor_tab
+        import ui.pokemon_data_tab
+        import ui.quest_system_tab
+        import ui.roaming_pokemon_tab
+    except ImportError:
+        pass
