@@ -20,28 +20,10 @@ AFRO-hacker, or Andvanced Fire Red Optimization hacker, is a ROM hacking tool fo
 
 ### Requirements
 - Python 3.11 or higher
-- Windows operating system (for final executable) as the linux version will not come out for a while (usable on linux IF wine or anyother wrapper is installed)
+- Windows operating system (recommended) but in the latest update mac OS and linux support has been added! 
 
 ### Setup
-1. Clone or download the project
-2. Navigate to the project directory
-3. Create a virtual environment:
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
-   ```
-4. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-## Usage
-
-### Running the Application
-```bash
-cd src
-python main.py
-```
+check the SETUP_GUIDE.md file for more information.
 
 ### Loading a ROM
 1. Open the application
@@ -95,16 +77,6 @@ pokemon_fire_red_hacker/
 └── requirements.txt       # Python dependencies
 ```
 
-## Building Executable
-
-To create a Windows executable:
-
-```bash
-pyinstaller --onefile --windowed --name "Pokemon Fire Red Hacker" src/main.py
-```
-
-The executable will be created in the `dist/` directory.
-
 ## Contributing
 
 This project is designed to be a comprehensive ROM hacking tool. Contributions are welcome for:
@@ -122,8 +94,7 @@ This project is for educational and personal use only. Pokemon Fire Red is a tra
 - Hex Maniac Advance for interface design inspiration
 - pret/pokefirered decompilation project for symbol file
 - Pokemon ROM hacking community for tools and techniques
-                                                           Enjoy!-ThatOneGreen (creator)
-
+                                                           Enjoy!-ThatOneGreen
 
 
                                                                
